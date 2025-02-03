@@ -1,0 +1,25 @@
+.architecture-column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  min-width: 0;
+}
+
+.architecture-column h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee;
+}
+
+.architectures-comparison {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}

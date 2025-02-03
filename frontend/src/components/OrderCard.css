@@ -1,0 +1,65 @@
+.order-card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.stages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.stage.pending {
+  background-color: #fff3cd;
+}
+
+.stage.in_progress {
+  background-color: #cfe2ff;
+}
+
+.stage.completed {
+  background-color: #d1e7dd;
+}
+
+.stage.failed {
+  background-color: #f8d7da;
+}
+
+.stage-name {
+  font-weight: bold;
+}
+
+.stage-status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.stage-time {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.total-time {
+  margin-top: 10px;
+  text-align: right;
+  font-weight: bold;
+  color: #666;
+}

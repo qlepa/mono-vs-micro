@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:main": "ts-node src/server.ts",
+    "start:monolith": "ts-node monolith/src/server.ts",
+    "start:order": "ts-node microservices/order/src/server.ts",
+    "start:preparation": "ts-node microservices/preparation/src/server.ts",
+    "start:delivery": "ts-node microservices/delivery/src/server.ts",
+    "start": "concurrently \"npm run start:main\" \"npm run start:monolith\" \"npm run start:order\" \"npm run start:preparation\" \"npm run start:delivery\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.16",
+    "axios": "^1.6.7",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.3"
+  }
+}
