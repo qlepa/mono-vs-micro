@@ -108,8 +108,8 @@ We compare two restaurant management models:
   - Answering questions about application architecture
   - Explaining differences between monolithic and microservices approaches
   - Knowledge base built on project documentation and reliable sources
-- Cost and payment system
-  - Order cost simulation
+- Order processing cost system
+  - Single operation cost simulation
   - Cost efficiency comparison between architectures
 - User control panel
   - Component failure simulation capabilities
